@@ -1,0 +1,19 @@
+/* font-weight */
+
+/* bold*/
+
+.section-outter { 
+  font-family: 'montserratbold', sans-serif;    
+}
+
+/* regular */
+
+.section-product__item,
+.story-short,
+.section-footer__nav,
+.section-footer__rights {
+  font-family: 'montserratregular', sans-serif;
+}
+
+/* /font-weight */
+
