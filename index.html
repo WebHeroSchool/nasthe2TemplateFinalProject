@@ -14,32 +14,40 @@
     <header class="section-outter section-header">
       <div class="inner">
         <div class="section-header__up">
-          <img src="images/axion.png" alt="Axion icon" class="section-header__icon">
-          <nav class="section-header__nav">
-            <a href="#" class="section-header__nav link">SHOP</a>
-              <a href="#" class="section-header__nav link">NEWS</a>
-              <a href="#" class="section-header__nav link">TEAM</a>
-              <a href="#" class="section-header__nav link">LEGACY</a>
-              <a href="#" class="section-header__nav link">HELP</a>
-          </nav>
-          <div class="section-header__search">
-            <input type="text" class="section-header__search search-query">
-            <button type="submit" class="section-header__search search-button">
-            </button>
+          <div class="header-logo">
+            <img src="images/axion.png" alt="Axion logo">
           </div>
-          <nav class="section-header__user">
-            <a href="#" class="section-header__user link">SIGN IN</a>
-            <a href="#" class="section-header__user link-cart">CART</a>
+          <nav class="header-nav">
+            <a href="#" class="header-nav__link">SHOP</a>
+            <a href="#" class="header-nav__link">NEWS</a>
+            <a href="#" class="header-nav__link">TEAM</a>
+            <a href="#" class="header-nav__link">LEGACY</a>
+            <a href="#" class="header-nav__link">HELP</a>
           </nav>
-          <img src="images/header.png" alt="Language used" class="section-header__lang">
+          <div class="header-search">
+            <div class="header-search__input">
+              <input type="text/>
+            </div>
+            <div class="header-search__button">
+              <button type="submit" class="header-search__button-wrap"><img src="images/zoom.png" alt="Search button"></button>
+            </div>
+          </div>
+          <nav class="header__user">
+            <a href="#" class="user__link">SIGN IN</a>
+            <a href="#" class="user__cart">CART</a>
+            <!-- TODO: flag -->
+          </nav>
         </div>
         <div class="section-header__down">
-          <h2 class="section-header__down slogan">
-            LEGENDARY<br>
-            FOOTWEAR<br>
-            REBORN.
-          </h2>
-          <p class="section-header__down action">SHOP NOW</p>
+          <div class="header-motto">
+            <h2 class="header-motto__slogan">
+              <!-- TODO: square dot -->
+              LEGENDARY<br>
+              FOOTWEAR<br>
+              REBORN.
+            </h2>
+            <p class="header-motto__action">SHOP NOW</p>
+          </div>
         </div>
       </div>
     </header>
@@ -53,48 +61,65 @@
       <section class="section-outter section-product">
         <div class="inner">
           <h3 class="section-name">FEATURED PRODUCT</h3>
-          <div class="section-product__item">
-            Atlas Black/Rasta Axion
-            <img src="images/black.png" alt="Photo of product" class="section-product__item product">
-            <span class="section-product__item price">$89.00</span>
-            <div class="section-product__item colors">
-              <div class="colors__grey"></div>
-              <div class="colors__black-big"></div>
-              <div class="colors__red"></div>
-              <div class="colors__orange"></div>
+          <div class="section-product__items">
+            <div class="section-product__item">
+              
+              <img src="images/black.png" alt="Photo of product" class="section-product__item product-line">
+              <div class="section-product__item-name">
+                Atlas Black/Rasta Axion
+              </div>
+              <span class="section-product__item price">$89.00</span>
+              <div class="section-product__item colors">
+                <div class="colors__grey"></div>
+                <div class="colors__black-big"></div>
+                <div class="colors__red"></div>
+                <div class="colors__orange"></div>
+              </div>
             </div>
-          </div>
-          <div class="section-product__item">
-            Camel/Chili Pepper Axion
-            <img src="images/peach.png" alt="Photo of product" class="section-product__item product">
-            <span class="section-product__item price">$74.00</span>
-            <div class="section-product__item colors">
-              <div class="colors__grey"></div>
-              <div class="colors__peach-big"></div>
-              <div class="colors__red"></div>
-              <div class="colors__orange"></div>
+            <div class="section-product__item">
+              
+              <img src="images/peach.png" alt="Photo of product" class="section-product__item product-line">
+              <div class="section-product__item-name">
+                  Camel/Chili Pepper Axion
+              </div>
+              
+              <span class="section-product__item price">$74.00</span>
+              <div class="section-product__item colors">
+                <div class="colors__grey"></div>
+                <div class="colors__peach-big"></div>
+                <div class="colors__red"></div>
+                <div class="colors__orange"></div>
+              </div>
             </div>
-          </div>
-          <div class="section-product__item">
-            Mandel Smoke/Rust Axion
-            <img src="images/grey.png" alt="Photo of product" class="section-product__item product">
-            <span class="section-product__item price">$69.00</span>
-            <div class="section-product__item colors">
-              <div class="colors__grey"></div>
-              <div class="colors__red-big"></div>
-              <div class="colors__blue"></div>
-              <div class="colors__orange"></div>
+            <div class="section-product__item">
+              
+              <img src="images/grey.png" alt="Photo of product" class="section-product__item product-line">
+              <div class="section-product__item-name">
+                Mandel Smoke/Rust Axion
+              </div>
+              
+              <span class="section-product__item price">$69.00</span>
+              <div class="section-product__item colors">
+                <div class="colors__grey"></div>
+                <div class="colors__red-big"></div>
+                <div class="colors__blue"></div>
+                <div class="colors__orange"></div>
+              </div>
             </div>
-          </div>
-          <div class="section-product__item">
-            Cloud/Electric Blue Axion
-            <img src="images/blue.png" alt="Photo of product" class="section-product__item product">
-            <span class="section-product__item price">$69.00</span>
-            <div class="section-product__item colors">
-              <div class="colors__grey"></div>
-              <div class="colors__blue-big"></div>
-              <div class="colors__red"></div>
-              <div class="colors__orange"></div>
+            <div class="section-product__item">
+              
+              <img src="images/blue.png" alt="Photo of product" class="section-product__item product">
+              <div class="section-product__item-name">
+                Cloud/Electric Blue Axion
+              </div>
+              
+              <span class="section-product__item price">$69.00</span>
+              <div class="section-product__item colors">
+                <div class="colors__grey"></div>
+                <div class="colors__blue-big"></div>
+                <div class="colors__red"></div>
+                <div class="colors__orange"></div>
+              </div>
             </div>
           </div>
         </div>

@@ -7,13 +7,131 @@
 }
 
 /* regular */
-
-.section-product__item,
+.section-product__item-name,
 .story-short,
 .section-footer__nav,
 .section-footer__rights {
   font-family: 'montserratregular', sans-serif;
 }
 
-/* /font-weight */
+/* / font-weight */
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.inner {
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.section-header__up {
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
+.header-nav__link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 11px;
+  color: #000;
+}
+
+.header-search__button-wrap {
+  
+}
+
+
+.user__link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 11px;
+  color: #000;
+}
+
+.user__cart {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 11px;
+  color: #000;
+}
+
+.section-header__down {
+  color: #fff;
+  background: url(../images/header.png) no-repeat 50% 50%;
+  height: 253px;
+  display: flex;
+  align-items: center;
+}
+
+.header-motto {
+  padding-left: 60px;
+}
+
+.header-motto__slogan {
+  margin: 0 0 15px 0;
+  font-size: 30px;
+  line-height: 29px;
+}
+
+.header-motto__action {
+  margin: 0;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+/* / header */
+
+.section-name {
+  margin: 0 0 15px;
+  padding-top: 53px;
+  font-size: 22px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-product__items {
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-product__item .product,
+.section-product__item .product-line {
+  margin-bottom: 24px;
+}
+
+.section-product__item .product-line {
+  position: relative;
+}
+
+.product-line::after {
+  content: '';
+  position: absolute;
+  width: 19px;
+  right: -19px; 
+  height: 100px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section-product__item {
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.section-product__item .price {
+  font-size: 14px;
+  line-height: 13px;
+}
