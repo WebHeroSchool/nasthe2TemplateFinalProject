@@ -18,28 +18,33 @@
             <div class="header-logo">
               <img src="images/axion.svg" alt="Axion logo">
             </div>
-            <nav class="header-nav">
-              <a href="#" class="header-nav__link">SHOP</a>
-              <a href="#" class="header-nav__link">NEWS</a>
-              <a href="#" class="header-nav__link">TEAM</a>
-              <a href="#" class="header-nav__link">LEGACY</a>
-              <a href="#" class="header-nav__link">HELP</a>
-            </nav>
           </div>
           <div class="header__right">
-            <div class="header-search">
-              <div class="header-search__input">
-                <input type="text/>
-              </div>
-              <div class="header-search__button">
-                <button type="submit" class="header-search__button-wrap"><img src="images/zoom.svg" alt="Search button"></button>
-              </div>
+            <div class="header__left-links">
+              <nav class="header-nav">
+                <a href="#" class="header-nav__link">SHOP</a>
+                <a href="#" class="header-nav__link">NEWS</a>
+                <a href="#" class="header-nav__link">TEAM</a>
+                <a href="#" class="header-nav__link">LEGACY</a>
+                <a href="#" class="header-nav__link">HELP</a>
+              </nav>
             </div>
-            <nav class="header__user">
-              <a href="#" class="user__link">SIGN IN</a>
-              <a href="#" class="user__cart">CART</a>
+
+            <div class="header__right-links">
+              <div class="header-search">
+                <div class="header-search__input">
+                  <input type="text" class="header-search__text">
+                </div>
+                <div class="header-search__button">
+                  <button type="submit" class="header-search__button-wrap"><img src="images/zoom.svg" alt="Search button"></button>
+                </div>
+              </div>
+              <nav class="header__user">
+                <a href="#" class="user__link">SIGN IN</a>
+                <a href="#" class="user__cart">CART</a>
               <div class="region"></div>
-            </nav>
+              </nav>
+            </div>
           </div>
           
         </div>
@@ -50,7 +55,11 @@
               FOOTWEAR<br>
               REBORN
             </h2>
-            <p class="header-motto__action">SHOP NOW</p>
+            <p class="header-motto__action">
+              <a href="#" class="shop-link">
+                SHOP NOW
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -74,13 +83,15 @@
               <div class="section-product__item-name">
                 Atlas Black/Rasta Axion
               </div>
-              <span class="section-product__item price">$89.00</span>
-              <div class="section-product__item colors">
-                <div class="colors__grey"></div>
-                <div class="colors__black-big"></div>
-                <div class="colors__red"></div>
-                <div class="colors__orange"></div>
+              <div class="section-product__item price">$89.00
+                <div class="section-product__item color-selector">
+                  <div class="colors grey"></div>
+                  <div class="colors-big black"></div>
+                  <div class="colors red"></div>
+                  <div class="colors orange"></div>
+                </div>
               </div>
+
             </div>
             <div class="section-product__item">
               <div class="product-line">
@@ -90,13 +101,15 @@
                   Camel/Chili Pepper Axion
               </div>
               
-              <span class="section-product__item price">$74.00</span>
-              <div class="section-product__item colors">
-                <div class="colors__grey"></div>
-                <div class="colors__peach-big"></div>
-                <div class="colors__red"></div>
-                <div class="colors__orange"></div>
+              <div class="section-product__item price">$74.00
+                <div class="section-product__item color-selector">
+                  <div class="colors grey"></div>
+                  <div class="colors-big peach"></div>
+                  <div class="colors red"></div>
+                  <div class="colors orange"></div>
+                </div>
               </div>
+
             </div>
             <div class="section-product__item">
               <div class="product-line">
@@ -106,13 +119,15 @@
                 Mandel Smoke/Rust Axion
               </div>
               
-              <span class="section-product__item price">$69.00</span>
-              <div class="section-product__item colors">
-                <div class="colors__grey"></div>
-                <div class="colors__red-big"></div>
-                <div class="colors__blue"></div>
-                <div class="colors__orange"></div>
+              <div class="section-product__item price">$69.00
+                <div class="section-product__item color-selector">
+                  <div class="colors grey"></div>
+                  <div class="colors-big red"></div>
+                  <div class="colors purple"></div>
+                  <div class="colors orange"></div>
+                </div>
               </div>
+
             </div>
             <div class="section-product__item">
               
@@ -121,12 +136,14 @@
                 Cloud/Electric Blue Axion
               </div>
               
-              <span class="section-product__item price">$69.00</span>
-              <div class="section-product__item colors">
-                <div class="colors__grey"></div>
-                <div class="colors__blue-big"></div>
-                <div class="colors__red"></div>
-                <div class="colors__orange"></div>
+              <div class="section-product__item price">$69.00
+                <div class="section-product__item color-selector">
+                  <div class="colors grey"></div>
+                  <div class="colors-big blue"></div>
+                  <div class="colors red"></div>
+                <div class="colors orange"></div>
+              </div>
+
               </div>
             </div>
           </div>
@@ -140,7 +157,9 @@
       <section class="section-outter section-brand">
         <div class="inner">
           <div class="section-brand__video">
-            <img src="images/main.png" alt="Video preview" class="section-brand__video preview">
+            <div class="video-wrap">
+              <img src="images/main.png" alt="Video preview" class="section-brand__video preview">
+            </div>
           </div>
           <div class="section-brand__post story">
             LEGENDARY<br>
