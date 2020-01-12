@@ -169,8 +169,10 @@
 
       <!-- brand -->
 
+      <div class="rotate-background">
+
       <section class="section-outter section-brand">
-        <div class="inner rotate-background">
+        <div class="inner">
           
           <div class="section-brand__video">
             <div class="video-wrap">
@@ -205,11 +207,13 @@
                 <div class="section-stories__item story-short">
                   Anagoa’s been a part of the skater’s family ever since his early teenage years. He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, to see what makes Anagoa tick.
                 </div>
-                <a href="#" class="section-stories__item link">LEARN MORE</a>
-                <span class="section-stories__item date">11.08.2018</span>
+                <div class="section-stories__item info">
+                  <a href="#" class="section-stories__item link">LEARN MORE</a>
+                  <span class="section-stories__item date">11.08.2018</span>
+                </div>
               </div>
             </div>
-            <div class="section-stories__item">
+            <div class="section-stories__item section-stories__item-adaptive">
               <img src="images/skate-2.png" alt="Story's image" class="section-stories__item image">
               <div class="section-stories__item story">
               First Frontside flip
@@ -217,19 +221,23 @@
                   Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day.<br>
                   Photo: Yoon Sul
                 </div>
-                <a href="#" class="section-stories__item link">LEARN MORE</a>
-                <span class="section-stories__item date">17.08.2018</span>
+                <div class="section-stories__item info">
+                  <a href="#" class="section-stories__item link">LEARN MORE</a>
+                  <span class="section-stories__item date">17.08.2018</span>
+                </div>
               </div>
             </div>
-            <div class="section-stories__item">
+            <div class="section-stories__item section-stories__item-adaptive">
               <img src="images/skate-3.png" alt="Story's image" class="section-stories__item image">
               <div class="section-stories__item story">
               Kevin Baekkel is Pro
                 <div class="section-stories__item story-short">
                   Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster. After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.
                 </div>
-                <a href="#" class="section-stories__item link">LEARN MORE</a>
-                <span class="section-stories__item date">29.07.2018</span>
+                <div class="section-stories__item info">
+                  <a href="#" class="section-stories__item link">LEARN MORE</a>
+                  <span class="section-stories__item date">29.07.2018</span>
+                </div>
               </div>
             </div>
           </div>
@@ -244,16 +252,19 @@
         <div class="inner">
           <div class="section-photos__hashtag">#AXIONFOOTWEAR</div>
           <div class="section-photos__album">
-            <img src="images/hash-1.png" alt="Photo item" class="section-photos__album item">
-            <img src="images/hash-2.png" alt="Photo item" class="section-photos__album item">
-            <img src="images/hash-3.png" alt="Photo item" class="section-photos__album item">
-            <img src="images/hash-4.png" alt="Photo item" class="section-photos__album item">
-            <img src="images/hash-5.png" alt="Photo item" class="section-photos__album item">
-            <img src="images/hash-6.png" alt="Photo item" class="section-photos__album item">
-            <img src="images/hash-7.png" alt="Photo item" class="section-photos__album item">
+            <img src="images/hash-1.png" alt="Photo item" class="section-photos__item">
+            <img src="images/hash-2.png" alt="Photo item" class="section-photos__item">
+            <img src="images/hash-3.png" alt="Photo item" class="section-photos__item">
+            <img src="images/hash-4.png" alt="Photo item" class="section-photos__item">
+            <img src="images/hash-5.png" alt="Photo item" class="section-photos__item">
+            <img src="images/hash-6.png" alt="Photo item" class="section-photos__item">
+            <img src="images/hash-7.png" alt="Photo item" class="section-photos__item">
+            <img src="images/hash-1.png" alt="Photo item" class="section-photos__item-adaptive">
           </div>
         </div>
       </section>
+
+      </div>
 
       <!-- photos -->
 
@@ -263,7 +274,8 @@
 
     <footer class="section-outter section-footer">
       <div class="inner">
-        <div class="section-footer__item">
+        <div class="footer-menu">
+          <div class="section-footer__item">
           <p class="section-footer__item title">MY ACCOUNT</p>
           <nav class="section-footer__nav">
             <a href="#" class="section-footer__nav link">Login</a>
@@ -272,8 +284,8 @@
             <a href="#" class="section-footer__nav link">Track order</a>
             <a href="#" class="section-footer__nav link">Gift cards</a>
           </nav>
-        </div>
-        <div class="section-footer__item">
+          </div>
+          <div class="section-footer__item">
           <p class="section-footer__item title">CUSTOMER SERVICE</p>
           <nav class="section-footer__nav">
             <a href="#" class="section-footer__nav link">Contact us</a>
@@ -283,8 +295,8 @@
             <a href="#" class="section-footer__nav link">Size guide</a>
             <a href="#" class="section-footer__nav link">Holiday shopping</a>
           </nav>
-        </div>
-        <div class="section-footer__item">
+          </div>
+          <div class="section-footer__item">
           <p class="section-footer__item title">MISCELLANEOUS</p>
           <nav class="section-footer__nav">
             <a href="#" class="section-footer__nav link">About Us</a>
@@ -294,36 +306,39 @@
             <a href="#" class="section-footer__nav link">Ethical Policy</a>
             <a href="#" class="section-footer__nav link">Homepage US/UK</a>
           </nav>
-        </div>
-        <div class="section-footer__item">
-          <p class="section-footer__item title">NEWSLETTER SIGN UP</p>
-          <nav class="section-footer__nav">
-            <a href="#" class="section-footer__nav link">Get 10% Off Your Next Order!</a>
-          </nav>
-          <form class="section-footer__nav button">
-            <input type="button" value="SIGN UP" onclick="window.location.href='#'" />
-          </form>
-          <nav class="section-footer__nav social-media">
-            <a href="#" class="social-media__icon">
-              <img src="images/facebook.svg" alt="Facebook link">
-            </a>
-            <a href="#" class="social-media__icon">
-              <img src="images/twitter.svg" alt="Twitter link">
-            </a>
-            <a href="#" class="social-media__icon">
-              <img src="images/instagram.svg" alt="Instagram link">
-            </a>
-            <a href="#" class="social-media__icon">
-              <img src="images/pinterest.svg" alt="Pinterest link">
-            </a>
-          </nav>
-        </div>
-        <span class="section-footer__rights">© 2019 Axion. All rights reserved.</span>
-        <div class="section-footer__created">
-          <p class="section-footer__created text">РАЗРАБОТАНО В</p>
-          <img class="section-footer__created webhero-logo" src="images/logo-whs.svg" alt="Created by WebHero School">
+          </div>
+          <div class="section-footer__item">
+            <p class="section-footer__item title">NEWSLETTER SIGN UP</p>
+            <nav class="section-footer__nav">
+              <a href="#" class="section-footer__nav link adaptive-sale">Get 10% Off Your Next Order!</a>
+            </nav>
+            <form class="footer-nav__button">
+              <input type="button" value="SIGN UP" class="sign-up" onclick="window.location.href='#'"/>
+            </form>
+            <nav class="section-footer__nav social-media">
+              <a href="#" class="social-media__icon">
+                <img src="images/facebook.svg" alt="Facebook link">
+              </a>
+              <a href="#" class="social-media__icon">
+                <img src="images/twitter.svg" alt="Twitter link">
+              </a>
+              <a href="#" class="social-media__icon">
+                <img src="images/instagram.svg" alt="Instagram link">
+              </a>
+              <a href="#" class="social-media__icon">
+                <img src="images/pinterest.svg" alt="Pinterest link">
+              </a>
+            </nav>
+          </div>
         </div>
       </div>
+      <div class="section-footer__rights">© 2019 Axion. All rights reserved.</div>
+      <div class="section-footer__created">
+        <p class="text-rus">РАЗРАБОТАНО В</p>
+        <img class="webhero-logo" src="images/logo-whs.svg" alt="Created by WebHero School">
+      </div>
+
+
     </footer>
 
     <!-- / footer -->
