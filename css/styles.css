@@ -821,7 +821,7 @@ body {
 
 @media (max-width: 768px) and (min-width: 691px) {
   .rotate-background {
-    height: 1800px;
+    height: 1820px;
   }
 
   .rotate-background::before {
@@ -832,7 +832,7 @@ body {
 
 @media (max-width: 690px) and (min-width: 591px) {
   .rotate-background {
-    height: 1870px;
+    height: 1900px;
   }
 
   .rotate-background::before {
@@ -843,7 +843,7 @@ body {
 
 @media (max-width: 590px) and (min-width: 551px) {
   .rotate-background {
-    height: 1890px;
+    height: 1945px;
   }
 
   .rotate-background::before {
@@ -854,7 +854,7 @@ body {
 
 @media (max-width: 550px) and (min-width: 471px) {
   .rotate-background {
-    height: 1920px;
+    height: 1980px;
   }
 
   .rotate-background::before {
@@ -876,7 +876,7 @@ body {
 
 @media (max-width: 375px) {
   .rotate-background {
-    height: 1400px;
+    height: 1475px;
   }
 
   .rotate-background::before {
@@ -1199,6 +1199,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 18px;
+    text-align: left;
   }
 
   .section-stories__item .info {
@@ -1269,6 +1270,7 @@ body {
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 39px;
+    text-align: left;
   }
 
   .section-stories__item .info {
@@ -1330,6 +1332,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 14px;
+    text-align: left;
   }
 
   .section-stories__item .info {
@@ -1449,7 +1452,7 @@ body {
 
 @media (max-width: 1050px) and (min-width: 691px) {
   .section-photos {
-    margin-bottom: 124px;
+    margin-bottom: 94px;
   }
 
   .section-photos__hashtag {
